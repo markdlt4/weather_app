@@ -1,0 +1,98 @@
+body {
+    background-image: url(assets/beach_pic.jpg);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+header {
+    text-align: center;
+    background-color: #e2df3e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#headerTitle {
+    color: rgb(22, 21, 21);
+}
+
+#input {
+    float: left;
+}
+
+.container {
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    background-color: #ededed;
+    width: 20%;
+    height: 100px;
+    border-radius: 2px;
+    border: black;
+    border-style: solid;
+}
+
+#img {
+    height: 25px;
+    width: 25px;
+}
+
+/* Current Weather */
+
+#currentWeather {
+    background-color: #ededed;
+    border-radius: 5px;
+    border: black;
+    border-style: solid;
+    width: 65%;
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#cityName {
+    margin-left: 1rem;
+}
+
+.currentWeather {
+    font-size: 16px;
+    margin-left: 1rem;
+}
+
+/* 5 Day Weather */
+
+#fiveDayForecast {
+    background-color: #ededed;
+    text-align: center;
+    margin-right: 0.5rem;
+    width: 65%;
+    float: right;
+    border-radius: 5px;
+    border: black;
+    border-style: solid;
+    display: flex;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.divClasses {
+    border: black solid 2px;
+    width: 20%;
+    margin: 5px;
+    background-color: #0079fb;
+    border-radius: 5%;
+    color: #fff;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
