@@ -10,6 +10,7 @@ header {
     background-color: #e2df3e;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-block-color: red;
 }
 
 #headerTitle {
@@ -36,9 +37,6 @@ header {
     height: 25px;
     width: 25px;
 }
-
-/* Current Weather */
-
 #currentWeather {
     background-color: #ededed;
     border-radius: 5px;
